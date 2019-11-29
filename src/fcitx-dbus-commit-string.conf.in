@@ -1,0 +1,10 @@
+[Addon]
+Name=fcitx-dbus-commit-string
+_GeneralName=DBusCommitString
+_Comment=Provides DBus interfaces to commit string
+Category=Module
+Enabled=True
+Library=fcitx-dbus-commit-string.so
+Type=SharedLibrary
+Advance=True
+
