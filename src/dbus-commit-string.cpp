@@ -118,7 +118,6 @@ static DBusHandlerResult FcitxDBusCommitStringEventHandler(
                 "No such method with signature (%s)", dbus_message_get_signature(message));
         }
         dbus_error_free(&error);
-        return DBUS_HANDLER_RESULT_HANDLED;
     }
 
     if (reply) {
